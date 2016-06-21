@@ -1,0 +1,156 @@
+/* ----------------------------------------------
+	Website Name : OMBALAJI Jasmine
+	Author : Rinu Ram.M
+	Author mail : rinu@chanelsoftech.com       
+	Last Date Modified : August 04, 2011
+ ------------------------------------------------ */
+ 
+/* ----------------------------------------------
+   HTML ELEMENTS
+------------------------------------------------- */ 
+
+body {  font-family:Tahoma, Geneva, sans-serif; font-size:12px; line-height:18px;color: #152f00; margin:0px;	background:#8fcb44 url(images/bg.jpg) center top no-repeat; background-attachment:fixed; -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 100%;
+}
+
+/* headers */
+h1, h2, h3, h4 { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; margin:0px; padding:0px;}
+
+h1 { font-size: 14px; font-weight: bold; color:#d81a47;}
+h2 { font-size: 14px; font-weight: bold; color:#06F;}
+.distance-txt{font-family:Georgia, "Times New Roman", Times, serif; font-size:15px; font-style:italic; color:#000000;}
+.para {padding-right:15px; text-align:justify; margin:0;}
+
+/* form elements */
+form {
+	padding: 15px 25px 25px 25px; 
+	border: 1px solid #c0daa0;
+	background-color: #dff1c8;	
+}
+form p {
+	border-bottom: 1px solid #221813; 
+	margin: 0;
+	padding: 13px 5px 8px 5px;		
+	color: #fff;
+}
+label {
+	font-weight: normal;
+	color: #114FC8;
+}
+input, textarea {
+margin-bottom:5px; margin-right:10px; margin-top:5px;
+	padding: 7px 5px;
+	border-width: 1px;
+	border-style: solid;
+  	border-color: #e0e0e0; 	
+	background-color: #f8f7f7;
+	font: 11px 'Lucida Grande', Verdana, Helvetica, Sans-Serif;
+	color: #000000; width:500px;
+}
+
+select {
+margin-bottom:5px; margin-right:10px; margin-top:5px;
+	padding: 7px 5px;
+	border-width: 1px;
+	border-style: solid;
+  	border-color: #e0e0e0; 	
+	background-color: #f8f7f7;
+	font: 11px 'Lucida Grande', Verdana, Helvetica, Sans-Serif;
+	color: #000000; width:510px;
+}
+
+input.button { 
+	height: 22px; width:auto;
+	margin: 0;
+	padding: 2px 3px; 
+	border: 1px solid #CC6A08;
+	background: #E27304;	
+	font: bold 11px 'Lucida Grande', Verdana, Helvetica, Sans-Serif;
+	text-decoration: none;	
+	color: #fff;
+}
+input.button:focus {
+	border: 1px solid #5A9223 ;
+	background-color:#4C7B1E;
+	text-decoration: none;
+}
+
+/* list */
+.list li, ul {margin:0; padding:0;}
+.list li {list-style-position:inside; margin:0px 0px 5px 10px; list-style:url(images/list.jpg);}
+
+
+/* table */
+table{border: 1px solid #c0daa0; padding:5px;
+	background-color: #dff1c8;}
+
+td{ border:1px solid #c0daa0; background-color:#d2fff8;}
+th{ border:1px solid #c0daa0; background-color:#fdf862;}
+
+/* links*/
+a:link, a:visited {text-decoration: none;color: #152f00;}
+a:hover {color: #FF3300;}
+
+a:link.more, a:visited.more {float:right;color: #d0e9b1;text-decoration: none; padding:1px 4px 1px 4px; background-color:#6eaa23; border:1px solid #588f13;}
+a:hover.more {color: #FFFFFF; text-decoration:none;}
+
+/* images */
+iframe {margin:0px; padding:0px;}
+img{border:0px;}
+.images{ padding: 5px;	background: #FFFFFF;  border: 1px solid #99cf54;}
+.images-gallery-center{ padding: 5px; margin-left:25px; margin-right:25px;	background: #FFFFFF;  border: 1px solid #99cf54;}
+
+
+/* ------------------------------------------
+   LAYOUT
+------------------------------------------- */ 
+#wrap {width:908px; height:auto; margin: auto;}
+#header {width:908px; height:175px; float:left;}
+#logo-main {width:184px; height:100px; float:left; margin-top:38px; display:inline;}
+#logo-sub {width:178px; height:73px; float:right; margin:55px 0px 0px 20px; display:inline;}
+#logo-sub1 {width:178px; height:73px; float:right; margin:12px 0px 0px 20px; display:inline;
+}
+
+
+#footer {width:100%; height:70px; float:left; margin: auto; margin-top:20px; background-color:#c0daa0; display:inline;}
+#footer-cont {width:908px; height:auto; margin: auto; padding-top:15px;}
+#footer-left {width:auto; height:auto; float:left; text-align:left;}
+#footer-right {width:auto; height:auto; float:right; text-align:right;}
+
+
+/* navigation */
+#navigation {width:264px; height:289px; float:left; margin-right:20px; background-image:url(images/nav-bg.png); padding-top:18px; padding-left:28px; display:inline;}
+#villa-button-cont{width:275px; height:auto; float:left;}
+
+/* content */
+#banner-cont {width:595px; height:292px; float:left; background-image:url(images/banner-bg.png); padding-top:15px;}
+#content {width:878px; height:auto; float:left; background-color:#d0e9b1; padding:15px; margin-top:20px;
+    -moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	behavior: url(images/border-radius.htc); display:inline;}
+	
+#cont-left {width:280px; height:auto; float:left;}
+#left-points{width:255px; height:auto; float:left; background:url(images/bullet-1.jpg) no-repeat left top; padding-left:25px; padding-bottom:6px; padding-top:2px; border-bottom:1px solid #add27f; margin-bottom:6px; display:inline;}
+#left-pointsnone{width:255px; color:red; height:auto; float:left; padding-left:25px; padding-bottom:6px; padding-top:2px; border-bottom:0px solid #add27f ; margin-bottom:6px; display:inline;}
+#cont-right {width:580px; height:auto; float:left;  padding-left:14px; display:inline; border-left:1px solid #c0daa0;}
+#right-blank {width:541px; height:auto; float:left; padding:20px; background:#dff1c8 ;border:1px solid #c0daa0;}
+#right-blank2 {width:556px; height:auto; float:left; padding:5px; background:#dff1c8 ;border:1px solid #c0daa0;}
+
+#enquiry-wrap {width:500px; height:200px; background-color:#d0e9b1; padding:15px; margin:auto; margin-top:50px;
+    -moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	behavior: url(images/border-radius.htc);}	
+	
+#left-points2{width:500px; height:auto; float:left; background:url(images/bullet-2.jpg) no-repeat left center; padding-left:25px; padding-bottom:6px; padding-top:5px; border-bottom:1px solid #add27f; border-top:1px solid #add27f; margin-bottom:10px; margin-left:5px; display:inline;}	
+
+.loading {background:url(images/ajax-loader.gif) no-repeat center center;}
+
+
+
+
+#left-points_m{width:555px; height:auto; float:left; background:url(images/bullet-1.jpg) no-repeat left top; padding-left:25px; padding-bottom:6px; padding-top:2px; border-bottom:1px solid #add27f; margin-bottom:6px; display:inline;}
+
